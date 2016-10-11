@@ -1,0 +1,10 @@
+.container {
+  border: 1px dotted black
+}
+
+.center {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}

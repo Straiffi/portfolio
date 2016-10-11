@@ -1,0 +1,33 @@
+.parallax-header {
+	position: absolute;
+	left: 30%;
+	width: 5%;
+    text-align: center;
+}
+
+.parallax-text, .parallax-subtext {
+	position: absolute;
+	transition: 300ms ease-out;
+}
+
+.parallax-bg, .parallax-subtext-bg {
+	position: absolute;
+	opacity: 0.2;
+}
+
+.parallax-subtext, .parallax-subtext-bg {
+	width: 200px;
+	top: 110px;
+}
+
+.parallax-text {
+    color: #FFFFFF;
+}
+
+.outline-text {
+    text-shadow: 1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
