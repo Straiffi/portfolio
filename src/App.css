@@ -1,5 +1,5 @@
 .container {
-  border: 1px dotted black
+    padding-top: 150px !important;
 }
 
 .center {
@@ -7,4 +7,12 @@
     align-content: center;
     justify-content: center;
     text-align: center;
+}
+
+.bordered {
+    border: 1px dashed black;
+}
+
+.graph--skill-cloud {
+    margin-top: -75px;
 }

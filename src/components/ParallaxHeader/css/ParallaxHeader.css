@@ -1,6 +1,7 @@
 .parallax-header {
 	position: absolute;
-	left: 30%;
+	left: 0;
+    top: 0;
 	width: 5%;
     text-align: center;
 }
@@ -22,6 +23,14 @@
 
 .parallax-text {
     color: #FFFFFF;
+}
+
+.parallax-text, .parallax-bg {
+    font-size: 5.0rem;
+}
+
+.parallax-subtext, .parallax-subtext-bg {
+    font-size: 2.4rem;
 }
 
 .outline-text {

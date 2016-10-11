@@ -60,4 +60,5 @@ export default class ParallaxHeader extends React.Component {
 ParallaxHeader.propTypes = {
 	text: PropTypes.string,
 	subText: PropTypes.string,
-	backgroundColor: PropTypes.string,};
+	backgroundColor: PropTypes.string,
+};
