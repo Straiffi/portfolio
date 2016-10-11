@@ -28,7 +28,7 @@ export default class App extends React.Component {
                 <div className="row center">
                     <div className="twelve columns">
                         <SkillCloud
-                            height={460}
+                            height={600}
                             width={600}
                         />
                     </div>

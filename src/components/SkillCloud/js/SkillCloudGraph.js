@@ -24,8 +24,7 @@ export default class SkillCloudGraph {
     _getScreenDimensions() {
         const w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0) - 50;
         this.w = w < this.config.width ? w : this.config.width;
-
-        this.h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+        this.h = this.config.height;
     }
 
     update() {
