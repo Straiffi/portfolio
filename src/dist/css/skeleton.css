@@ -28,13 +28,6 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/Slabo27px-Regular.ttf'); /* IE9 Compat Modes */
-  src: local('Slabo')
-}
 .container {
   position: relative;
   width: 100%;
