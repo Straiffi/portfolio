@@ -1,7 +1,7 @@
 .parallax-header {
 	position: absolute;
-	left: 0;
-    top: 0;
+	left: 25%;
+    top: 150px;
 	width: 5%;
     text-align: center;
 }
@@ -39,4 +39,10 @@
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+
+@media (min-width: 550px) {
+    .parallax-header {
+        left: 0;
+    }
 }

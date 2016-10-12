@@ -1,5 +1,30 @@
 .container {
-    padding-top: 150px !important;
+    padding-top: 300px !important;
+}
+
+.header {
+    text-decoration: underline;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 1;
+}
+.nav h5 {
+    background-color: transparent;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.nav h5:hover {
+    cursor: pointer;
+    background-color: rgba(227, 205, 231, 0.56);
 }
 
 .center {
@@ -13,6 +38,25 @@
     border: 1px dashed black;
 }
 
+.padding {
+    padding: 12px;
+}
+
+.margin-none {
+    margin: 0 !important;
+}
+
+.margin-top {
+    margin-top: 12px;
+}
+
+
 .graph--skill-cloud {
     margin-top: -70px;
+}
+
+@media (min-width: 550px) {
+    .margin-left--small {
+        margin-left: 1% !important;
+    }
 }
