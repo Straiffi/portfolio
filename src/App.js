@@ -26,7 +26,7 @@ export default class App extends React.Component {
                         <p>
                             Software Developer specialized in <strong>Web</strong>, <strong>Mobile</strong> and <strong>Games</strong>.<br />
                             I enjoy data visualization, maps and coffee.<br /><br />
-                            Currently employed at <a href="http://symbio.com" target="_blank">Symbio.</a>
+                            I am currently employed at <a href="http://symbio.com" target="_blank">Symbio.</a>
                         </p>
                     </div>
                 </div>

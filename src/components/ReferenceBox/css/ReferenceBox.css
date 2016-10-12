@@ -1,24 +1,30 @@
 .box-tab {
     text-align: center;
-    background: #E3CDE7;
-    color: white;
+    background: white;
+    color: black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     padding: 3px;
     cursor: pointer;
 }
+
 .box-tab.selected {
-    background: #9E6AA7;
+    background: black;
+    color: white;
 }
 
 .reference {
     text-decoration: none !important;
 }
+
 .reference-name {
     position: relative;
     top: -95px;
     left: -10%;
-    z-index: 101;
+    z-index: 2;
     pointer-events: none;
     display: block;
     height: 0;
@@ -37,7 +43,7 @@
     content: "";
     top: 0px;
     left: 0px;
-    z-index: 100;
+    z-index: 1;
     display: block;
     transition: all 0.3s ease;
     background-color: rgba(227, 205, 231, 0.95);
