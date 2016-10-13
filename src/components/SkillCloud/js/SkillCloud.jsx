@@ -5,7 +5,7 @@ import SkillCloudGraph from './SkillCloudGraph';
 export default class SkillCloud extends React.Component {
     componentDidMount() {
         const element = ReactDOM.findDOMNode(this);
-        this.Graph = new SkillCloudGraph(element, {
+        new SkillCloudGraph(element, {
             width: this.props.width,
             height: this.props.height,
         });

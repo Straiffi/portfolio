@@ -24,6 +24,8 @@
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.4.1",
     "gh-pages": "^0.11.0",
+    "mapbox-gl": "^0.25.1",
+    "react-scroll": "^1.4.1",
     "underscore": "^1.8.3"
   },
   "homepage": "http://straiffi.github.io/portfolio"

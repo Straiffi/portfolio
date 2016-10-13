@@ -46,7 +46,7 @@
     z-index: 1;
     display: block;
     transition: all 0.3s ease;
-    background-color: rgba(227, 205, 231, 0.95);
+    background-color: rgba(176, 152, 196, 0.96);
 }
 
 .reference-image:hover:after {
