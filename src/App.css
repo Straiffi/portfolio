@@ -4,7 +4,7 @@
 
 .header {
     text-decoration: underline;
-    margin-bottom: 15px;
+    margin-bottom: 1em;
 }
 
 .nav {
@@ -38,6 +38,10 @@
     background-color: rgba(176, 152, 196, 0.40);
 }
 
+section:not(:first-of-type) {
+    margin-bottom: 9em;
+}
+
 .footer {
     margin-top: 35px;
 }
@@ -69,9 +73,20 @@
     margin-top: 48px;
 }
 
-
 .graph--skill-cloud {
-    margin-top: -50px;
+    text-align: center;
+}
+
+.map-container {
+    font: inherit !important;
+    height: 300px;
+    max-width: 544px;
+}
+.map-container:focus {
+    outline: none;
+}
+.mapboxgl-popup, .mapboxgl-popup-tip, .mapboxgl-popup-content {
+    pointer-events: none;
 }
 
 @media (min-width: 550px) {

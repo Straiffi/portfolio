@@ -22,9 +22,13 @@ export default class SkillCloudGraph {
     }
 
     _getScreenDimensions() {
-        const w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0) - 50;
-        this.w = w < this.config.width ? w : this.config.width;
-        this.h = this.config.height;
+        const leftColumnWidth = document.getElementById('factsheet').offsetWidth;
+        const documentWidth = document.documentElement.clientWidth;
+        const widthAddition = (documentWidth - leftColumnWidth) < 100 ? 210 : 0;
+
+        const w = Math.max(documentWidth, window.innerWidth || 0) - 210;
+        this.w = w < this.config.width ? (w + widthAddition) : this.config.width;
+        this.h = this.w;
     }
 
     update() {
@@ -62,6 +66,14 @@ export default class SkillCloudGraph {
             .attr('transform', (d) => (
                 `translate(${d.x},${d.y})`
             ));
+
+        node.on('mouseover', function(){
+           d3.select(this).select('circle')
+               .style('stroke', 'black')
+               .style('stroke-dasharray', '3,4');
+        }).on('mouseout', function() {
+            d3.select(this).select('circle').style('stroke', 'none');
+        });
 
         node.append('title')
             .text((d) => (d.name));

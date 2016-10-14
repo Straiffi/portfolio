@@ -5,13 +5,14 @@ export const skillData = {
             name: "Javascript",
             color: "#B098C4",
             children: [
-                {name: "Javascript", size: 3000},
+                {name: "Javascript", size: 3500},
                 {name: "React", size: 2500},
                 {name: "underscore", size: 2000},
                 {name: "Backbone", size: 1600},
                 {name: "jQuery", size: 1000},
                 {name: "Angular", size: 1000},
-                {name: "d3", size: 1500}
+                {name: "d3", size: 1500},
+                {name: "Node", size: 1200}
             ]
         },
         {

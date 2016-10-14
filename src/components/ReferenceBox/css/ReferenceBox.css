@@ -15,6 +15,9 @@
     background: black;
     color: white;
 }
+.box-tab:not(.selected):hover {
+    background: rgba(176, 152, 196, 0.40);
+}
 
 .reference {
     text-decoration: none !important;
@@ -41,8 +44,8 @@
     height: 128px;
     position: absolute;
     content: "";
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 1;
     display: block;
     transition: all 0.3s ease;
@@ -55,6 +58,40 @@
 
 .reference-image:hover ~ .reference-name {
     color: transparent;
+}
+
+.tooltip {
+    z-index: 3;
+    position: fixed;
+    background: rgb(242, 219, 255);
+    border: 1px solid grey;
+    top: -100%;
+    left: 0;
+    border-radius: 5px;
+    width: 300px;
+    pointer-events: none;
+}
+.tooltip:after, .tooltip:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.tooltip:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: rgb(242, 219, 255);
+    border-width: 10px;
+    margin-left: -10px;
+}
+.tooltip:before {
+    border-color: rgba(204, 204, 204, 0);
+    border-top-color: #404040;
+    border-width: 11px;
+    margin-left: -11px;
 }
 
 @media (min-width: 550px) {
