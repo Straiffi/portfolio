@@ -98,11 +98,17 @@
               <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <marker date="1476458443651" expanded="true" signature="1867:1942" ph="..." />
-                <marker date="1476458443651" expanded="true" signature="2283:2350" ph="..." />
-                <marker date="1476458443651" expanded="true" signature="2283:2897" ph="..." />
-                <marker date="1476458443651" expanded="true" signature="2317:2350" ph="..." />
-                <marker date="1476458443651" expanded="true" signature="2836:2880" ph="..." />
+                <marker date="1476458581960" expanded="true" signature="220:2917" ph="{...}" />
+                <marker date="1476458581960" expanded="true" signature="240:370" ph="{...}" />
+                <marker date="1476458581960" expanded="true" signature="280:364" ph="{&quot;selectedTab&quot;: PROFESSIONAL...}" />
+                <marker date="1476458581960" expanded="true" signature="470:860" ph="{...}" />
+                <marker date="1476458581960" expanded="true" signature="890:1340" ph="{...}" />
+                <marker date="1476458581960" expanded="true" signature="907:1284" ph="{...}" />
+                <marker date="1476458581960" expanded="true" signature="1867:1942" ph="..." />
+                <marker date="1476458581960" expanded="true" signature="2283:2350" ph="..." />
+                <marker date="1476458581960" expanded="true" signature="2283:2897" ph="..." />
+                <marker date="1476458581960" expanded="true" signature="2317:2350" ph="..." />
+                <marker date="1476458581960" expanded="true" signature="2836:2880" ph="..." />
               </folding>
             </state>
           </provider>
@@ -111,8 +117,18 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+            <state relative-caret-position="288">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,6 +141,10 @@
               <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
               <folding>
                 <element signature="e#0#60#0" expanded="true" />
+                <marker date="1476458581959" expanded="true" signature="487:1533" ph="[...]" />
+                <marker date="1476458581959" expanded="true" signature="1561:2267" ph="[...]" />
+                <marker date="1476458581959" expanded="true" signature="1567:1788" ph="{&quot;name&quot;: 'Android applications'...}" />
+                <marker date="1476458581959" expanded="true" signature="1794:2022" ph="{&quot;name&quot;: 'Puzzle Nebula'...}" />
               </folding>
             </state>
           </provider>
@@ -483,6 +503,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -580,7 +614,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69897000" />
+    <option name="totallyTimeSpent" value="70198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -670,7 +704,7 @@
         <state relative-caret-position="630">
           <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -832,7 +866,7 @@
         <state relative-caret-position="832">
           <caret line="52" column="122" selection-start-line="52" selection-start-column="122" selection-end-line="52" selection-end-column="122" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -894,13 +928,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SkillCloud/css/SkillCloud.css" />
-    <entry file="file://$PROJECT_DIR$/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/img/github-logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -927,7 +954,7 @@
         <state relative-caret-position="896">
           <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -970,6 +997,10 @@
           <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
           <folding>
             <element signature="e#0#60#0" expanded="true" />
+            <marker date="1476458581959" expanded="true" signature="487:1533" ph="[...]" />
+            <marker date="1476458581959" expanded="true" signature="1561:2267" ph="[...]" />
+            <marker date="1476458581959" expanded="true" signature="1567:1788" ph="{&quot;name&quot;: 'Android applications'...}" />
+            <marker date="1476458581959" expanded="true" signature="1794:2022" ph="{&quot;name&quot;: 'Puzzle Nebula'...}" />
           </folding>
         </state>
       </provider>
@@ -1008,11 +1039,17 @@
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <marker date="1476458443651" expanded="true" signature="1867:1942" ph="..." />
-            <marker date="1476458443651" expanded="true" signature="2283:2350" ph="..." />
-            <marker date="1476458443651" expanded="true" signature="2283:2897" ph="..." />
-            <marker date="1476458443651" expanded="true" signature="2317:2350" ph="..." />
-            <marker date="1476458443651" expanded="true" signature="2836:2880" ph="..." />
+            <marker date="1476458581960" expanded="true" signature="220:2917" ph="{...}" />
+            <marker date="1476458581960" expanded="true" signature="240:370" ph="{...}" />
+            <marker date="1476458581960" expanded="true" signature="280:364" ph="{&quot;selectedTab&quot;: PROFESSIONAL...}" />
+            <marker date="1476458581960" expanded="true" signature="470:860" ph="{...}" />
+            <marker date="1476458581960" expanded="true" signature="890:1340" ph="{...}" />
+            <marker date="1476458581960" expanded="true" signature="907:1284" ph="{...}" />
+            <marker date="1476458581960" expanded="true" signature="1867:1942" ph="..." />
+            <marker date="1476458581960" expanded="true" signature="2283:2350" ph="..." />
+            <marker date="1476458581960" expanded="true" signature="2283:2897" ph="..." />
+            <marker date="1476458581960" expanded="true" signature="2317:2350" ph="..." />
+            <marker date="1476458581960" expanded="true" signature="2836:2880" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1027,10 +1064,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+        <state relative-caret-position="288">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding />
         </state>
       </provider>
