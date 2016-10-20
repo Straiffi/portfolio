@@ -15,7 +15,7 @@ referenceData.professional = [
         url: 'http://www.movescount.com/',
         years: '2015- (current)',
         description: 'Map-page, various graph components.',
-        skills: 'React, Backbone, underscore, jQuery',
+        skills: 'ES6, React, d3, Backbone, underscore, jQuery',
     },
     {
         name: 'Sanoma Pro',

@@ -96,6 +96,15 @@ export default class App extends React.Component {
                                     Currently employed at <a href="http://symbio.com" target="_blank">Symbio.</a>
                                 </li>
                             </ul>
+                            <h5 className="center">Awards</h5>
+                            <ul>
+                                <li>
+                                    Winner of <a href="https://www.guildwars2.com/en/news/the-results-of-the-overwolf-guild-wars-2-app-challenge-are-in/" target="_blank">GW2 App Challenge.</a>
+                                </li>
+                                <li>
+                                    Symbio Newcomer the of Year 2015.
+                                </li>
+                            </ul>
                         </div>
                         <div className="seven columns">
                             <SkillCloud

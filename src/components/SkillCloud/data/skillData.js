@@ -12,7 +12,8 @@ export const skillData = {
                 {name: "jQuery", size: 1000},
                 {name: "Angular", size: 1000},
                 {name: "d3", size: 1500},
-                {name: "Node", size: 1200}
+                {name: "Node", size: 1200},
+                {name: "ES6", size: 1500},
             ]
         },
         {
