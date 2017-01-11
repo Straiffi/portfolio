@@ -64,7 +64,7 @@ referenceData.personal = [
         image: github,
         url: 'https://github.com/Straiffi',
         years: '2016-',
-        description: 'Not much here yet, but I plan to change that.',
-        skills: 'Mostly Javascript for now'
+        description: 'Some web stuff.',
+        skills: 'Mostly Javascript'
     },
 ];

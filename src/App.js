@@ -93,7 +93,7 @@ export default class App extends React.Component {
                                     Has a cat.
                                 </li>
                                 <li>
-                                    Currently employed at <a href="http://symbio.com" target="_blank">Symbio.</a>
+                                    Currently employed at <a href="https://www.nitor.fi/en" target="_blank">Nitor.</a>
                                 </li>
                             </ul>
                             <h5 className="center">Awards</h5>
